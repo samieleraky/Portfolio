@@ -7,7 +7,7 @@ import "./App.css"; // Common styles for all pages
 
 export default function App() {
     return (
-        <Router>
+        <Router basename="/Portfolio">
             <Navbar />
             <div className="page-container">
                 <AppRoutes />
