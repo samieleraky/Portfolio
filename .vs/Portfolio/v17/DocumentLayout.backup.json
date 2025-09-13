@@ -1,0 +1,314 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\pages\\notes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\pages\\notes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\pages\\process.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\pages\\process.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\approutes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\approutes.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\styles\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\styles\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\styles\\notes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\styles\\notes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\pages\\projects.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\pages\\projects.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\pages\\resources.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\pages\\resources.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\pages\\reflections.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\pages\\reflections.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\pages\\learningobjectives.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\pages\\learningobjectives.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|c:\\users\\bruger\\source\\repos\\portfolio\\portfolio\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4D09634-8F57-4CED-AFCA-D81B0FF4695A}|Portfolio\\portfolio.esproj|solutionrelative:portfolio\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppRoutes.jsx",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\AppRoutes.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\AppRoutes.jsx",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\AppRoutes.jsx",
+              "RelativeToolTip": "portfolio\\src\\AppRoutes.jsx",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-11T04:29:56.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Projects.jsx",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\pages\\Projects.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\pages\\Projects.jsx",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\pages\\Projects.jsx",
+              "RelativeToolTip": "portfolio\\src\\pages\\Projects.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-13T07:16:51.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Reflections.jsx",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\Reflections.jsx",
+              "RelativeDocumentMoniker": "Portfolio\\src\\pages\\Reflections.jsx",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\Reflections.jsx",
+              "RelativeToolTip": "Portfolio\\src\\pages\\Reflections.jsx",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-12T11:14:24.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\main.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\main.jsx",
+              "RelativeToolTip": "portfolio\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-13T07:19:46.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\App.css",
+              "RelativeDocumentMoniker": "portfolio\\src\\App.css",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\App.css",
+              "RelativeToolTip": "portfolio\\src\\App.css",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-13T06:57:00.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\Styles\\Home.css",
+              "RelativeDocumentMoniker": "portfolio\\src\\Styles\\Home.css",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\Styles\\Home.css",
+              "RelativeToolTip": "portfolio\\src\\Styles\\Home.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-11T04:25:15.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Notes.css",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\Styles\\Notes.css",
+              "RelativeDocumentMoniker": "portfolio\\src\\Styles\\Notes.css",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\Styles\\Notes.css",
+              "RelativeToolTip": "portfolio\\src\\Styles\\Notes.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-12T11:12:14.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Process.jsx",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\Process.jsx",
+              "RelativeDocumentMoniker": "Portfolio\\src\\pages\\Process.jsx",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\Process.jsx",
+              "RelativeToolTip": "Portfolio\\src\\pages\\Process.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-12T11:17:27.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Notes.jsx",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\Notes.jsx",
+              "RelativeDocumentMoniker": "Portfolio\\src\\pages\\Notes.jsx",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\Notes.jsx*",
+              "RelativeToolTip": "Portfolio\\src\\pages\\Notes.jsx*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-11T05:08:28.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "Portfolio\\src\\pages\\Home.jsx",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\Home.jsx",
+              "RelativeToolTip": "Portfolio\\src\\pages\\Home.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-11T04:25:43.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Resources.jsx",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\Resources.jsx",
+              "RelativeDocumentMoniker": "Portfolio\\src\\pages\\Resources.jsx",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\Resources.jsx",
+              "RelativeToolTip": "Portfolio\\src\\pages\\Resources.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-12T11:22:33.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\package.json",
+              "RelativeDocumentMoniker": "portfolio\\package.json",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\package.json",
+              "RelativeToolTip": "portfolio\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-11T05:02:03.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LearningObjectives.jsx",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\LearningObjectives.jsx",
+              "RelativeDocumentMoniker": "Portfolio\\src\\pages\\LearningObjectives.jsx",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\Portfolio\\src\\pages\\LearningObjectives.jsx",
+              "RelativeToolTip": "Portfolio\\src\\pages\\LearningObjectives.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-11T05:08:25.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\App.jsx",
+              "RelativeDocumentMoniker": "portfolio\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\App.jsx",
+              "RelativeToolTip": "portfolio\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-11T04:26:10.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\index.css",
+              "RelativeDocumentMoniker": "portfolio\\src\\index.css",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\src\\index.css",
+              "RelativeToolTip": "portfolio\\src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-13T07:00:41.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\package-lock.json",
+              "RelativeDocumentMoniker": "portfolio\\package-lock.json",
+              "ToolTip": "C:\\Users\\Bruger\\source\\repos\\Portfolio\\portfolio\\package-lock.json",
+              "RelativeToolTip": "portfolio\\package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-11T05:02:16.268Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
