@@ -44,6 +44,14 @@ const weeks = [
         title: "Week 37",
         goals:
             "Begin High Level Design (HLD) for our project and continue learning React and start React Native course",
+        reflection: "We have started our HLD with use cases and a domain model. We will continue working on HLD design and focusing on Wireframes so we have a foundation on how we wish our product should look like. Im continuing my learning in Codeacedemy with React and implementing my teachings in this portfolio. This is helping my learning tremendously as Im learninig on the go. This will also prepare me for the actual front end development of this project as Im getting a good understanding of React. We received good feecback from our productmeeting where most of the time was used on reviewing our High level design. Especially for our domain model it was important that the relations and attributes were correct for the further development of our databasemodel which requires normalization",
+        resources: "Codeacedemy, Draw.io - for the HLD",
+        learning: "The feedback from my colleagues and teachers are helping us stay on the right track with this project. The course that Im taking on Codeacedemy while implementing it in my portfolio is advancing my learning further ",
+    },
+    {
+        title: "Week 38",
+        goals:
+            "Develop our wireframes and applying for internships",
         reflection: "",
         resources: "",
         learning: "",
