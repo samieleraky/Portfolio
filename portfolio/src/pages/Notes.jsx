@@ -8,6 +8,8 @@ import Curly from '../assets/Curly.png';
 import redpanda from '../assets/redpanda.jpg';
 import logicfunction from '../assets/logicfunction.jpg';
 import conditionalfunction from '../assets/conditionalfunction.jpg';
+import authorization from '../assets/authorization.jpg';
+import submit from '../assets/submit.jpg';
 import '../Styles/Notes.css';
 
 export const Notes = () => {
@@ -113,6 +115,11 @@ export const Notes = () => {
                 </div>
                 <p> Using event listerners and event handlers to run some code in response to interactions with interface such as clicking. As seen in the below example with an onClick on the Submit button which showcases "Submission Successful</p>
                 <img src={conditionalfunction} alt="conditionalfunction" className="notes-image" />
+            </div>
+            <div>
+            <p>Authorization form in react can be used to hide certain details from the user. In the below assignment i created a react component which hides the websites contact page behind a password form</p>
+                <img src={authorization} alt="authorization" className="notes-image" />
+                <img src={submit} alt="submit" className="notes-image" />
             </div>
         </section>
     );

@@ -38,7 +38,7 @@ export const Process = () => {
                         <img
                             src={kanban}
                             alt="Kanban board"
-                            className="w-40 h-28 object-cover rounded-xl shadow-md"
+                            className="w-30 h-18 object-cover rounded-xl shadow-md"
                         />
                     </div>
                 </div>
@@ -60,7 +60,7 @@ export const Process = () => {
                             React Native. Both are important technologies for our front-end
                             development and app development. In addition, I will also spend time
                             completing educational videos about Tailwind and tutorials that
-                            demonstrate the implementation of different techonologies.
+                            demonstrate the implementation of different technologies.
                         </p>
                     </div>
 
