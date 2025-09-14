@@ -1,7 +1,10 @@
-import React from "react";
+﻿import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import "../Styles/Navbar.css";
 
 export const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
     const pages = [
         { name: "Home", path: "/" },
         { name: "Notes", path: "/notes" },
@@ -16,10 +19,20 @@ export const Navbar = () => {
             <div className="navbar-logo">
                 <h1>Portfolio</h1>
             </div>
-            <ul className="navbar-links">
+
+            {/* Hamburger button */}
+            <div className="menu-toggle" onClick={() => setIsOpen(!isOpen)}>
+                ☰
+            </div>
+
+            <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
                 {pages.map((page) => (
                     <li key={page.path}>
-                        <NavLink to={page.path} end>
+                        <NavLink
+                            to={page.path}
+                            end
+                            onClick={() => setIsOpen(false)} // close menu on click
+                        >
                             {page.name}
                         </NavLink>
                     </li>

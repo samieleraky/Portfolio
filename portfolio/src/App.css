@@ -1,4 +1,4 @@
-/* Common layout for all pages */
+﻿/* Common layout for all pages */
 .page-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -174,4 +174,21 @@ img {
     .projects-list {
         grid-template-columns: 1fr;
     }
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto; /* ✅ centers everything */
+    padding: 2rem;
+}
+
+.reflections-content {
+    max-width: 800px; /* ✅ keeps text narrow for readability */
+    margin: 0 auto;
+}
+
+.week-label {
+    font-weight: 600;
+    color: #1a1a1a; /* almost black */
+    margin-bottom: 0.25rem;
 }

@@ -1,18 +1,18 @@
-/* src/Styles/Navbar.css */
-.navbar {
+﻿.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem;
     background-color: #ffffff;
     color: #333;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     position: fixed;
     top: 0;
     z-index: 100;
-    width : 100%;
+    width: 100%;
     left: 0;
-    right : 0;
+    right: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,15 +20,19 @@ body {
     padding: 0;
     padding-top: 70px; /* Adjust based on navbar height */
 }
+
 .navbar-logo h1 {
     margin: 0;
 }
 
+/* Navbar links (desktop) */
 .navbar-links {
     list-style: none;
     display: flex;
     gap: 1.5rem;
     align-items: center;
+    flex-wrap: wrap; /*  ensures links move if needed */
+    overflow-x: auto; /* allows scrolling if still too wide */
 }
 
     .navbar-links li a {
@@ -41,3 +45,37 @@ body {
         .navbar-links li a.active {
             color: #007bff;
         }
+
+/* Hamburger button */
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* show hamburger */
+    }
+
+    .navbar-links {
+        position: absolute;
+        top: 70px; /* same as navbar height */
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: #fff;
+        display: none; /* hidden by default */
+        padding: 1rem 0;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+        .navbar-links.open {
+            display: flex; /* show when open */
+        }
+
+        .navbar-links li {
+            margin: 0.5rem 0;
+        }
+}

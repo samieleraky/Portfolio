@@ -1,5 +1,4 @@
-﻿import React from 'react';
-import { useState } from "react";
+﻿import React, { useState } from "react";
 
 const weeks = [
     {
@@ -44,14 +43,15 @@ const weeks = [
         title: "Week 37",
         goals:
             "Begin High Level Design (HLD) for our project and continue learning React and start React Native course",
-        reflection: "We have started our HLD with use cases and a domain model. We will continue working on HLD design and focusing on Wireframes so we have a foundation on how we wish our product should look like. Im continuing my learning in Codeacedemy with React and implementing my teachings in this portfolio. This is helping my learning tremendously as Im learninig on the go. This will also prepare me for the actual front end development of this project as Im getting a good understanding of React. We received good feecback from our productmeeting where most of the time was used on reviewing our High level design. Especially for our domain model it was important that the relations and attributes were correct for the further development of our databasemodel which requires normalization",
+        reflection:
+            "We have started our HLD with use cases and a domain model. We will continue working on HLD design and focusing on Wireframes so we have a foundation on how we wish our product should look like. Im continuing my learning in Codeacedemy with React and implementing my teachings in this portfolio. This is helping my learning tremendously as Im learninig on the go. This will also prepare me for the actual front end development of this project as Im getting a good understanding of React. We received good feecback from our productmeeting where most of the time was used on reviewing our High level design. Especially for our domain model it was important that the relations and attributes were correct for the further development of our databasemodel which requires normalization",
         resources: "Codeacedemy, Draw.io - for the HLD",
-        learning: "The feedback from my colleagues and teachers are helping us stay on the right track with this project. The course that Im taking on Codeacedemy while implementing it in my portfolio is advancing my learning further ",
+        learning:
+            "The feedback from my colleagues and teachers are helping us stay on the right track with this project. The course that Im taking on Codeacedemy while implementing it in my portfolio is advancing my learning further ",
     },
     {
         title: "Week 38",
-        goals:
-            "Develop our wireframes and applying for internships",
+        goals: "Develop our wireframes and applying for internships",
         reflection: "",
         resources: "",
         learning: "",
@@ -66,60 +66,62 @@ export const Reflections = () => {
     };
 
     return (
-        <section className="p-6 max-w-2xl mx-auto">
-            <h2 className="text-2xl font-bold mb-4">
-                Reflections during the semester
-            </h2>
+        <div className="page-container">
+            <section className="reflections-content">
+                <h2 className="text-2xl font-bold mb-6 text-center">
+                    Reflections during the semester
+                </h2>
 
-            <div className="space-y-4">
-                {weeks.map((week, index) => (
-                    <div
-                        key={index}
-                        className="border rounded-xl bg-white shadow-md"
-                    >
-                        <button
-                            onClick={() => toggleWeek(index)}
-                            className="w-full flex justify-between items-center p-4 text-left font-semibold"
-                            aria-expanded={openIndex === index}
+                <div className="space-y-4">
+                    {weeks.map((week, index) => (
+                        <div
+                            key={index}
+                            className="border rounded-xl bg-white shadow-md"
                         >
-                            <span>{week.title}</span>
-                            <span>{openIndex === index ? "▲" : "▼"}</span>
-                        </button>
+                            <button
+                                onClick={() => toggleWeek(index)}
+                                className="w-full flex justify-between items-center p-4 text-left font-semibold"
+                                aria-expanded={openIndex === index}
+                            >
+                                <span>{week.title}</span>
+                                <span>{openIndex === index ? "▲" : "▼"}</span>
+                            </button>
 
-                        {openIndex === index && (
-                            <div className="p-4 border-t space-y-3 text-gray-700">
-                                {week.goals && (
-                                    <>
-                                        <p className="font-bold">Goals:</p>
-                                        <p>{week.goals}</p>
-                                    </>
-                                )}
+                            {openIndex === index && (
+                                <div className="p-4 border-t space-y-3 text-gray-700">
+                                    {week.goals && (
+                                        <>
+                                            <p className="week-label">Goals:</p>
+                                            <p>{week.goals}</p>
+                                        </>
+                                    )}
 
-                                {week.reflection && (
-                                    <>
-                                        <p className="font-semibold">The week that passed:</p>
-                                        <p>{week.reflection}</p>
-                                    </>
-                                )}
+                                    {week.reflection && (
+                                        <>
+                                            <p className="week-label">The week that passed:</p>
+                                            <p>{week.reflection}</p>
+                                        </>
+                                    )}
 
-                                {week.resources && (
-                                    <>
-                                        <p className="font-semibold">Resources:</p>
-                                        <p>{week.resources}</p>
-                                    </>
-                                )}
+                                    {week.resources && (
+                                        <>
+                                            <p className="week-label">Resources:</p>
+                                            <p>{week.resources}</p>
+                                        </>
+                                    )}
 
-                                {week.learning && (
-                                    <>
-                                        <p className="font-semibold">Ways of learning:</p>
-                                        <p>{week.learning}</p>
-                                    </>
-                                )}
-                            </div>
-                        )}
-                    </div>
-                ))}
-            </div>
-        </section>
+                                    {week.learning && (
+                                        <>
+                                            <p className="week-label">Ways of learning:</p>
+                                            <p>{week.learning}</p>
+                                        </>
+                                    )}
+                                </div>
+                            )}
+                        </div>
+                    ))}
+                </div>
+            </section>
+        </div>
     );
 };

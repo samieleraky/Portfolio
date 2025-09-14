@@ -4,7 +4,7 @@ import '../Styles/Home.css'; // Import the CSS file for styling
 
 export const Home = () => {
     return (
-        <div className="home-container">
+        <div className="page-container">
             <section className="hero-section">
                 <div className="hero-content">
                     <div className="image-container">
