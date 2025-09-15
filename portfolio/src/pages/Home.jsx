@@ -15,15 +15,13 @@ export const Home = () => {
                         />
                     </div>
                     <div className="text-content">
-                        <h2>Hi, Im Sami</h2>
+                        <h2>Hi,</h2>
                         <p className="intro-text">
-                            I am a computer-science student who is currently enrolled at the University
+                            My name is Sami. I am a computer-science student who is currently enrolled at the University
                             College Lillebaelt in Denmark. My main interests are web development,
                             frontend development and databases. I have a background in professional
                             basketball which has taught me the value of discipline, strategy and
-                            teamwork; skills that I now try to apply to my studies. I enjoy
-                            acquiring new knowledge and searching for new ways to implement digital
-                            solutions to our day-to-day affairs. Just like in sports, I believe
+                            teamwork; skills that I now try to apply to my studies. Just like in sports, I believe
                             that continuous progression is the key to both personal growth and
                             building successful, impactful software.
                         </p>

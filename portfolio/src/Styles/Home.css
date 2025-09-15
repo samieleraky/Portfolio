@@ -141,3 +141,7 @@ section:last-of-type {
         text-align: center;
     }
 }
+.text-content h2 {
+    text-align: left;
+    width: 100%;
+}

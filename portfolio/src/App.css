@@ -192,3 +192,56 @@ img {
     color: #1a1a1a; /* almost black */
     margin-bottom: 0.25rem;
 }
+
+/*Reflections page*/
+/* Container */
+.reflections-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+    /* Card styling */
+    .reflections-content .border {
+        border: 1px solid #e5e7eb; /* Tailwind gray-200 */
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+        .reflections-content .border:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+    /* Week button */
+    .reflections-content button {
+        background: #f9fafb; /* light gray */
+        border: none;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+        .reflections-content button:hover {
+            background: #f1f5f9; /* slightly darker gray */
+        }
+
+    /* Section inside accordion */
+    .reflections-content .p-4 {
+        background: #ffffff;
+        line-height: 1.6;
+        font-size: 0.95rem;
+    }
+
+/* Labels like "Goals:", "Resources:" */
+.week-label {
+    font-weight: 700;
+    color: #2c3e50;
+    margin-top: 0.5rem;
+}
+
+/* Heading */
+.reflections-content h2 {
+    font-family: "Poppins", sans-serif;
+    color: #2c3e50;
+    letter-spacing: 1px;
+}
