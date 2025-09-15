@@ -1,17 +1,16 @@
 ﻿import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { AppRoutes } from "./AppRoutes";
 import "./Styles/Navbar.css";
-import "./App.css"; // Common styles for all pages
+import "./App.css";
 
 export default function App() {
     return (
-        <Router basename="/Portfolio">
+        <> {/* Fjern Router her */}
             <Navbar />
             <div className="page-container">
                 <AppRoutes />
             </div>
-        </Router>
+        </>
     );
 }
