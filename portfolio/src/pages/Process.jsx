@@ -1,5 +1,7 @@
 import React from "react";
 import kanban from "../assets/kanban.png";
+import Kolbs from "../assets/Kolbs.webp" 
+
 
 export const Process = () => {
     return (
@@ -54,21 +56,26 @@ export const Process = () => {
                     {/* Text */}
                     <div className="flex-1 space-y-4 text-gray-800 leading-relaxed">
                         <p>
-                            In addition to the groups work, I have also focused on developing my
+                            In addition to the groups work, I will focus on developing my
                             own skills during this project. I have enrolled in
-                            Codeacademy where I am taking a course on React and
+                            Codeacademy where I am taking a course on React follewed by a course and
                             React Native. Both are important technologies for our front-end
                             development and app development. In addition, I will also spend time
                             completing educational videos about Tailwind and tutorials that
                             demonstrate the implementation of different technologies.
+                            I will make use of Kolb’s experiential learning cycle.
+                            My concrete experience will come from completing Codecademy courses in React and React Native, as well as tutorials and videos on Tailwind CSS.
+                            After each learning activity, I will engage in reflective observation, considering what I found intuitive, what I struggled with, and how the content connects to the requirements of our semester project.
+                            This reflection will then lead to abstract conceptualisation, where I aim to generalise key lessons, such as the benefits of component-based architecture in React.
+                            Finally, I will move to active experimentation by applying these concepts directly within our project work.
                         </p>
                     </div>
 
                     {/* Optional image */}
                     <div className="flex-shrink-0 text-center">
                         <img
-                            src="/images/individual.png"
-                            alt="Individuel proces"
+                            src={Kolbs}
+                            alt="Kolbs"
                             className="w-40 h-28 object-cover rounded-xl shadow-md mx-auto"
                         />
                     </div>
