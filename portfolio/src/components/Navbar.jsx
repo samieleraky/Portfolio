@@ -30,7 +30,7 @@ export const Navbar = () => {
                     <li key={page.path}>
                         <NavLink
                             to={page.path}
-                            end
+                            
                             onClick={() => setIsOpen(false)} // close menu on click
                         >
                             {page.name}

@@ -52,9 +52,9 @@ const weeks = [
     {
         title: "Week 38",
         goals: "Develop our wireframes and applying for internships",
-        reflection: "",
-        resources: "",
-        learning: "",
+        reflection: "Most of this week was spent on attending webinars on internships. We also met in the group to discuss our progress and the assignments we need to fulfill for our next meeting. I worked on my resumes for the internships and I have asked around in my network if anyone is interested in hiring me as an intern. In our guild meetings we gained valuable insigt on eachothers progress, and I picked up a few ideas to implement in my project. Im continuing my Codeacademy course on react which is going pretty well at the moment. After I finish this course, I will dig into React native course for our app development. We also made some wireframes for our product that we need to review over the weekend ",
+        resources: "Codeacademy, Draw.io",
+        learning: "The Webinars has helped me understand how to apply for my internships. It has given me a clear overview on how to deal with the process. The continous learning in Codeacademy combined with my portfolio is enhancing my learning curve with React. I feel more comfortable and prepared to start on our actual code ",
     },
 ];
 

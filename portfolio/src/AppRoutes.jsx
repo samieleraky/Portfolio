@@ -10,7 +10,12 @@ import { Resources } from "./pages/Resources";
 export const AppRoutes = () => {
     return (
         <Routes>
+            {/* Default route til Home */}
             <Route path="/" element={<Home />} />
+            <Route index element={<Home />} />
+
+            {/* Definer andre routes her */ }
+            
             <Route path="/notes" element={<Notes />} />
             <Route path="/process" element={<Process />} />
             <Route path="/projects" element={<Projects />} />

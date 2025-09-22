@@ -10,15 +10,18 @@
     top: 0;
     z-index: 100;
     width: 100%;
-    left: 0;
-    right: 0;
+    height: 70px; /* Fixed height for navbar */
     box-sizing: border-box;
+}
+
+/* Giv plads under navbaren */
+.page-container {
+    margin-top: 70px; /* matcher navbar height */
 }
 
 body {
     margin: 0;
     padding: 0;
-    padding-top: 70px; /* Adjust based on navbar height */
 }
 
 .navbar-logo h1 {
@@ -27,18 +30,17 @@ body {
     font-weight: 700;
     color: #2c3e50;
 }
-.navbar-logo h1 span{
-    color: #007bff; /* Highlight color */
-}
 
-/* Navbar links (desktop) */
+    .navbar-logo h1 span {
+        color: #007bff; /* Highlight color */
+    }
+
 .navbar-links {
     list-style: none;
     display: flex;
     gap: 1.5rem;
     align-items: center;
-    flex-wrap: wrap; /*  ensures links move if needed */
-    overflow-x: auto; /* allows scrolling if still too wide */
+    flex-wrap: wrap;
 }
 
     .navbar-links li a {
@@ -52,33 +54,31 @@ body {
             color: #007bff;
         }
 
-/* Hamburger button */
 .menu-toggle {
     display: none;
     font-size: 2rem;
     cursor: pointer;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
     .menu-toggle {
-        display: block; /* show hamburger */
+        display: block;
     }
 
     .navbar-links {
         position: absolute;
-        top: 70px; /* same as navbar height */
+        top: 70px;
         left: 0;
         width: 100%;
         flex-direction: column;
         background-color: #fff;
-        display: none; /* hidden by default */
+        display: none;
         padding: 1rem 0;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
         .navbar-links.open {
-            display: flex; /* show when open */
+            display: flex;
         }
 
         .navbar-links li {

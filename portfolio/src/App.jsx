@@ -8,9 +8,9 @@ export default function App() {
     return (
         <> {/* Fjern Router her */}
             <Navbar />
-            <div className="page-container">
+            <main className="page-container">
                 <AppRoutes />
-            </div>
+            </main>
         </>
     );
 }

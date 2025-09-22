@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 
 export const Projects = () => {
@@ -61,7 +61,44 @@ export const Projects = () => {
                         </a>
                     </div>
                 </li>
-            </ul>
+
+                {/* Project 3 */}
+                <li className="project-item">
+                    <h3>Intelligent Job Portal</h3>
+                    <p>
+                        A smart recruitment platform designed for DotLegal to automate the job
+                        application process. Instead of manually reviewing applications via Outlook,
+                        the portal uses AI & Machine Learning to streamline candidate evaluation.
+                    </p>
+
+                    <h4>Key Features</h4>
+                    <ul className="list-disc list-inside ml-4">
+                        <li>Automatic candidate scoring (1–10)</li>
+                        <li>Match score between job posting & applicant profile</li>
+                        <li>Auto-generated candidate summaries</li>
+                        <li>GDPR-compliant (6 months data retention)</li>
+                    </ul>
+
+                    <div className="project-links">
+                        <a
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-primary"
+                        >
+                            View Source Code
+                        </a>
+                        <a
+                            href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-success"
+                        >
+                            Demo (coming soon)
+                        </a>
+                    </div>
+                </li>
+</ul>
 
             {/* Technologies Section */}
             <section className="technologies-section">
