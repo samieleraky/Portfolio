@@ -63,11 +63,11 @@ export const Process = () => {
                             development and app development. In addition, I will also spend time
                             completing educational videos about Tailwind and tutorials that
                             demonstrate the implementation of different technologies.
-                            I will make use of Kolb’s experiential learning cycle.
+                            I will make use of Kolbs experiential learning cycle.
                             My concrete experience will come from completing Codecademy courses in React and React Native, as well as tutorials and videos on Tailwind CSS.
                             After each learning activity, I will engage in reflective observation, considering what I found intuitive, what I struggled with, and how the content connects to the requirements of our semester project.
                             This reflection will then lead to abstract conceptualisation, where I aim to generalise key lessons, such as the benefits of component-based architecture in React.
-                            Finally, I will move to active experimentation by applying these concepts directly within our project work.
+                            Finally, I will move to active experimentation by applying these concepts directly within our project work and this portfolio-project.
                         </p>
                     </div>
 
