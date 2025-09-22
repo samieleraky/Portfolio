@@ -66,7 +66,7 @@ export const Projects = () => {
                 <li className="project-item">
                     <h3>Intelligent Job Portal</h3>
                     <p>
-                        A smart recruitment platform designed for DotLegal to automate the job
+                        A smart recruitment platform designed for .dotLegal to automate the job
                         application process. Instead of manually reviewing applications via Outlook,
                         the portal uses AI & Machine Learning to streamline candidate evaluation.
                     </p>
