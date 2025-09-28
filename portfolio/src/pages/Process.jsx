@@ -49,7 +49,7 @@ export const Process = () => {
             {/* Individual process */}
             <section className="p-6 mt-12">
                 <h2 className="text-3xl font-extrabold mb-6 text-center md:text-left">
-                    Individuel proces
+                    Individual proces
                 </h2>
 
                 <div className="flex flex-col md:flex-row items-start gap-8 p-6 rounded-2xl shadow-lg bg-slate-100">
