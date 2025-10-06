@@ -6,6 +6,7 @@ import { Process } from "./pages/Process";
 import { Notes } from "./pages/Notes";
 import { Projects } from "./pages/Projects";
 import { Resources } from "./pages/Resources";
+import { LearningGoals } from "./pages/LearningGoals"; 
 
 export const AppRoutes = () => {
     return (
@@ -21,6 +22,7 @@ export const AppRoutes = () => {
             <Route path="/projects" element={<Projects />} />
             <Route path="/reflections" element={<Reflections />} />
             <Route path="/resources" element={<Resources />} />
+            <Route path="/learninggoals" element={<LearningGoals />} />
         </Routes>
     );
 };

@@ -1,0 +1,30 @@
+.learning-h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.valgfag-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ects {
+    font-weight: bold;
+    color: #555;
+}
+
+.outer-ul {
+    margin-left: 20px;
+}
+
+.outer-li {
+    font-weight: bold;
+    margin-top: 10px;
+}
