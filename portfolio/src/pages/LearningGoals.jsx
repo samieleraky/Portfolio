@@ -13,7 +13,7 @@ export const LearningGoals = () => {
                 </div>
 
                 <ul className="outer-ul">
-                    <li className="outer-li">Knowledge - The student can</li>
+                    <li className="outer-li">Knowledge - The student has knowledge on</li>
                     <ul>
                         <li>Components and props, and their role in implementing reusable components.</li>
                         <li>JSX: Learning what JSX (JavaScript XML) is, and how it is used to write HTML-like syntax directly inside JavaScript code in React.</li>
@@ -36,11 +36,11 @@ export const LearningGoals = () => {
                 </ul>
 
                 <div className="valgfag-container">
-                    <h2>Appdevelopment - React Native</h2>
+                    <h2>App development - React Native</h2>
                     <span className="ects">10 ECTS</span>
                 </div>
                 <ul className="outer-ul">
-                    <li className="outer-li">Knowledge - The student has knowledg on</li>
+                    <li className="outer-li">Knowledge - The student has knowledge on</li>
                     <ul>
                         <li>The core principles of React Native and how it differs from React for web</li>
                         <li>The React Native architecture, including the bridge between JavaScript and native mobile components</li>
