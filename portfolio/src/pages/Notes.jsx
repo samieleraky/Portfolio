@@ -19,6 +19,10 @@ import Talker from '../assets/Talker.jpg';
 import blahblah from '../assets/blahblah.jpg';
 import defaulttext from '../assets/defaulttext.jpg';
 import { Navbar } from '../components/Navbar';
+import useEffectBasic from '../assets/useEffectBasic.png';
+import EffectHook1 from '../assets/EffectHook1.png';
+import WeatherPlanner from '../assets/WeatherPlanner.png';
+import UseWeather from '../assets/UseWeather.png';
 
 export const Notes = () => {
     return (
@@ -164,6 +168,37 @@ export const Notes = () => {
             <p>If nobody passes any text to Button, then Button´s display will be blank. It would be better if Button could display a default message instead. You can make this happen by specifying a default value for the prop. There are different ways to do that. In the below example on line 4, the button shows Default Text of Big Button, if no text prop is passed</p>
             <div className="image-container">
                 <img src={defaulttext} alt="defaulttext" className="notes-image" />
+            </div>
+
+            <h4>useEffect</h4>
+            <p>useEffect is a React Hook that lets you run code at specific times in your component’s life—like when it first loads, when something changes, or when it's about to be removed
+                You use useEffect for things like:
+                - Updating the page title
+                - Fetching data from an API
+                - setting up timers
+                - listening to events
+
+                Basic syntax:
+
+            </p>
+            <div className="image-container">
+                <img src={useEffectBasic} alt="useEffectBasic" className="notes-image" />
+            </div>
+
+            <h4>Effect Hook</h4>
+            <p>The Effect Hook tells our component to do something every time it’s rendered (or re-rendered). Combined with states, we can use the Effect Hook to create interesting dynamic changes in our web pages!
+               Suppose we want to allow a user to change the title of the web page tab every time they type. We can implement this with the Effect Hook.
+            </p>
+            <div className="image-container">
+                <img src={EffectHook1} alt="EffectHook1" className="notes-image" />
+            </div>
+
+            <h4>Fetch Data</h4>
+            <p>In the below example from a Weather forecast, the useEffect controls when the data fetch happens. get() performs the actual fetch request.
+                setData() stores the fetched result in component state. React re-renders automatically whenever data chages, showing the latest information in the UI</p>
+            <div className="image-container">
+                <img src={UseWeather} alt="UseWeather" className="notes-image" />
+                <img src={WeatherPlanner} alt="WeatherPlanner" className="notes-image" />
             </div>
         </section>
     );
