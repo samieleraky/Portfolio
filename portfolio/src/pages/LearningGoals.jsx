@@ -8,12 +8,12 @@ export const LearningGoals = () => {
 
             <div className="beskrivelser">
                 <div className="valgfag-container">
-                    <h2>React.js</h2>
+                    <h2>Frontend and web development - React.js</h2>
                     <span className="ects">20 ECTS</span>
                 </div>
 
                 <ul className="outer-ul">
-                    <li className="outer-li">Knowledge - The student has knowledge on</li>
+                    <li className="outer-li">Knowledge - The student can</li>
                     <ul>
                         <li>Components and props, and their role in implementing reusable components.</li>
                         <li>JSX: Learning what JSX (JavaScript XML) is, and how it is used to write HTML-like syntax directly inside JavaScript code in React.</li>
@@ -32,6 +32,35 @@ export const LearningGoals = () => {
                         <li>Explain and discuss the advantages of using React as a modern frontend framework.</li>
                         <li>Put the use and relevance of React into perspective by comparing it with other frontend frameworks.</li>
                         <li>Evaluate the need for implementing React in a project in relation to scalability and maintainability.</li>
+                    </ul>
+                </ul>
+
+                <div className="valgfag-container">
+                    <h2>Appdevelopment - React Native</h2>
+                    <span className="ects">10 ECTS</span>
+                </div>
+                <ul className="outer-ul">
+                    <li className="outer-li">Knowledge - The student has knowledg on</li>
+                    <ul>
+                        <li>The core principles of React Native and how it differs from React for web</li>
+                        <li>The React Native architecture, including the bridge between JavaScript and native mobile components</li>
+                        <li>Native components (View, Text, Image, ScrollView, etc.) and their role in building mobile interfaces</li>
+                        <li>Styling in React Native</li>
+                    </ul>
+
+                    <li className="outer-li">Skills - the student can</li>
+                    <ul>
+                        <li>Build mobile applications using react Native </li>
+                        <li>Use and manage state with React hooks such as useState, useEffect, and context for global state</li>
+                        <li>Style and structure responsive mobile layouts with Flexbox and StyleSheet</li>
+                        <li>Integrate external APIs</li>
+                    </ul>
+
+                    <li className="outer-li">Competencies - the student can</li>
+                    <ul>
+                        <li>Plan and manage a small-scale mobile app project from concept to functional prototyp.</li>
+                        <li>Continuously learn and adapt to updates in the React Native ecosystem and related libraries</li>
+                        <li>Apply best practices for structuring and organizing React Native projects to ensure maintainability and readability</li>
                     </ul>
                 </ul>
             </div>
