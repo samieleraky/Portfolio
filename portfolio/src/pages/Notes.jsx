@@ -23,6 +23,8 @@ import useEffectBasic from '../assets/useEffectBasic.png';
 import EffectHook1 from '../assets/EffectHook1.png';
 import WeatherPlanner from '../assets/WeatherPlanner.png';
 import UseWeather from '../assets/UseWeather.png';
+import Personaldetails from '../assets/Personaldetails.png';
+import AnsogningVideo from '../assets/AnsogningVideo.mp4';
 
 export const Notes = () => {
     return (
@@ -200,6 +202,20 @@ export const Notes = () => {
                 <img src={UseWeather} alt="UseWeather" className="notes-image" />
                 <img src={WeatherPlanner} alt="WeatherPlanner" className="notes-image" />
             </div>
+
+            <h3>Week 41</h3>
+            <h4>Jobapplication component </h4>
+            <p>I developed our frontend design for our ansogning/Jobapplication component. The user will be able to fill out the form and upload resume, portfolio and recommendation. All this is showcased in one component. I used useState in my component to store the data that user inputs</p>
+            <div className="image-container" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                <img src={Personaldetails} alt="UseWeather" className="notes-image" />
+                
+            </div>
+
+            <h4>Video of Jobapplication component</h4>
+            <video src={AnsogningVideo}
+                controls
+                className="notes-video"
+                style={{ width: "500px", borderRadius: "12px", objectFit: "contain" }} />
         </section>
     );
 };

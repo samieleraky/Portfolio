@@ -69,6 +69,13 @@ const weeks = [
         "The week that passed": "I finished my react course in CodeAcademy, and I will begin a React native course on Freecodecamp. I have developed a design for our project on visual studio which incorporates the logos that .dotlegal uses and the background colors. I have only worked on the job-applicant pages for now. After presenting the work to my productgroup, we agreed that it would be better to gather all the information on one page for the jobapplicant than to have 3 different fans with documents, Personal details and application. The goal for the next week is therefore to rearrange our wireframes and re-order the overall design of our project",
         resources: "Codeacademy, Draw.io, Github",
         learning: "My individual learning is going well I would say. Im using Kolbs learning cycle as a tool to implement my lessions to my portfolio and our project. Also the feedback i receive from my groupmembers helps me focus on the details that needs be corrected",
+    },
+    {
+        title: "Week 41",
+        goals: "Re-order our frontend design for the jobapplicants, update wireframes, start with backend development",
+        "The week that passed": "I re-structured our frontend design for our job-application site. I have placed all the information in one component instead of 3 seperate components. This will make it easier for the user to fill out the job application. I updated our wireframes in draw.io so its arranged into 1 component as well. I have began the backend design of our job application component by opening a ASP.NET project in visual studio which will feature the backend development of our React component ",
+        resources: "Visual studio, Draw.io, Github",
+        learning: "Feedback from my group members enhances my learning and helps me stay on track with developing the right product. By focusing on backend development, I am learning how to integrate the front end with the back end through APIs",
     }
 ];
 
