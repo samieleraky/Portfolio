@@ -76,7 +76,32 @@ const weeks = [
         "The week that passed": "I re-structured our frontend design for our job-application site. I have placed all the information in one component instead of 3 seperate components. This will make it easier for the user to fill out the job application. I updated our wireframes in draw.io so its arranged into 1 component as well. I have began the backend design of our job application component by opening a ASP.NET project in visual studio which will feature the backend development of our React component ",
         resources: "Visual studio, Draw.io, Github",
         learning: "Feedback from my group members enhances my learning and helps me stay on track with developing the right product. By focusing on backend development, I am learning how to integrate the front end with the back end through APIs",
+    },
+    {
+        title: "Week 42",
+        goals: "Continue backend development and search for internships",
+        "The week that passed": "I finished a prototype of our backend which stores the logic of the frontend of our job application site. I managed to connect it to a local database in SQL. When the user sends in the application it is stored in the database. I also spend time sending internship-application. I still have not found an internship but I will keep pushing",
+        resources: "Visual studio, SQL server, Github",
+        learning: "By working on the backend development I am learning how to connect the frontend with the backend through APIs. This is helping me understand the full stack development of web applications",
+
+    }, 
+    {
+        title: "Week 43",
+        goals: "Begin the frontend work on our dashboard and to keep searching for internship",
+        "the week that passed": "I began the week with working on our frontend of the dashboard. This dashboard will work as the site which showcases the top applicants based on an AI score. I managed to finish a prototype of it but its still needs adjustments. The rest of the week was spent on sending internship applications",
+        resources: "Visual studio, Github",
+        learning: "The process of finding an internship is teaching me valuable lessons on resume-writing and cover letters"
+    },
+    {
+        title: "Week 44",
+        goals: "Continue working on dashboard and find an internship",
+        "the week that passed": "I continued working on the dashboard this week. It has been difficult to receive feedback from my groupmembers or just overall to plan any meetings. It seems like everyone is kind of on their own. I feel pressured to find an internship so the majority of the week was spent on sending our internship applications.",
+        resources: "Visual studio, Github",
+        learning: "Finding an internship is a difficult process. It requires patience and persistence. I have learned that its important to follow up on applications and to network as much as possible"
+
+
     }
+
 ];
 
 export const Reflections = () => {
