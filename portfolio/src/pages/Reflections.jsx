@@ -94,10 +94,35 @@ const weeks = [
     },
     {
         title: "Week 44",
-        goals: "Continue working on dashboard and find an internship",
-        "the week that passed": "I continued working on the dashboard this week. It has been difficult to receive feedback from my groupmembers or just overall to plan any meetings. It seems like everyone is kind of on their own. I feel pressured to find an internship so the majority of the week was spent on sending our internship applications.",
-        resources: "Visual studio, Github",
+        goals: "Continue working on dashboard and find an internship, start react native course",
+        "the week that passed": "I continued working on the dashboard this week. It has been difficult to receive feedback from my groupmembers or just overall to plan any meetings. It seems like everyone is kind of on their own. I feel pressured to find an internship so the majority of the week was spent on sending our internship applications. I also begang a react native course on FreeCodeCamp which details a tutorial on how to develop a mobile app",
+        resources: "Visual studio, Github, FreeCodeCamp, Youtube",
         learning: "Finding an internship is a difficult process. It requires patience and persistence. I have learned that its important to follow up on applications and to network as much as possible"
+
+
+    },
+    {
+        title: "Week 45",
+        goals: "Finish dashboard frontend and connect it to the backend, and continue react native course",
+        "the week that passed": "I managed to finish the frontend part of our dashboard, and I connected it to our backend. I finished a course on React Native on Navigation and I will continue with more advanced topics next week",
+        resources: "Visual studio, Github, FreeCodeCamp, Youtube",
+        learning: "Im getting a better understanding of React Native and how to implement navigation between different pages in a mobile app. I am closely observing how React and React Native differ and what similarities they have. Im following a tuturial which gives me hands on learning"
+
+
+    },
+    {
+        title: "Week 46",
+        goals: " Implement AI service to backend, and continue React Native course",
+        "the week that passed": "I began working on implementing an AI service to our backend. The goal is to have a match score for each applicant based on their CV and application. I decided to implement openAI for my AI service. For my React Native course I learned about styling and list views",
+        resources: "Visual studio, Github, FreeCodeCamp, Youtube, OpenAI",
+        learning: "Implementing an AI service is teaching me a lot about how AI can be used in real world applications. Its helping me understand the potential of AI and how to integrate it into web applications. The React Native course is helping me understand how to style mobile apps effectively"
+
+    },
+    {
+        title: "Week 47",
+        goals: "test our program, continue react native and send internship applications",
+        "the week that passed": "I spent most of the week testing our program and fixing bugs. The AIservice is now giving a matchscore more accurately based on the resumes and CVs.  I also continued my React Native course and learned about handling user input. I sent out more internship applications,",
+
 
 
     }

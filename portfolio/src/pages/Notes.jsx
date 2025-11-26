@@ -25,6 +25,7 @@ import WeatherPlanner from '../assets/WeatherPlanner.png';
 import UseWeather from '../assets/UseWeather.png';
 import Personaldetails from '../assets/Personaldetails.png';
 import AnsogningVideo from '../assets/AnsogningVideo.mp4';
+import FrontendRequest from '../assets/Frontendrequest.png';
 
 export const Notes = () => {
     return (
@@ -216,6 +217,18 @@ export const Notes = () => {
                 controls
                 className="notes-video"
                 style={{ width: "500px", borderRadius: "12px", objectFit: "contain" }} />
-        </section>
-    );
-};
+
+            <div>
+
+            <h3>Week 42</h3>
+            <h4> Post request in my Ansogning component</h4>
+            <p>The user fills out name, address, email etc and uploads resume, Cv. When the user clicks "send ansøgning", React gathers it all in a formdata-object which it send with a post request to my backend</p>
+            <div className="image-container" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                    <img src={FrontendRequest} alt="FrontendRequest" className="notes-image" />
+                </div>
+            </div>
+      </section>
+
+       
+            );
+    };

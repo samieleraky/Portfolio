@@ -58,7 +58,7 @@ export const LearningGoals = () => {
 
                     <li className="outer-li">Competencies - the student can</li>
                     <ul>
-                        <li>Plan and manage a small-scale mobile app project from concept to functional prototyp.</li>
+                        <li>Plan and manage a small-scale mobile app project from concept to functional prototype.</li>
                         <li>Continuously learn and adapt to updates in the React Native ecosystem and related libraries</li>
                         <li>Apply best practices for structuring and organizing React Native projects to ensure maintainability and readability</li>
                     </ul>

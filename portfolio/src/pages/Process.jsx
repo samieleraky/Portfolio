@@ -20,15 +20,15 @@ export const Process = () => {
                             We are working together on a project to develop a job application
                             portal for a company that selects candidates using AI. The project
                             is part of our studies and will continue throughout the semester.
-                            We have agreed in the group to use a Kanban board as a project
+                            We have agreed as a group to use a Kanban board as a project
                             management tool, as it gives us a good overview of the tasks and
-                            their status. In addition, the Kanban board also helps to delegate
+                            their status. In addition, the Kanban board also helps us delegate
                             tasks to the different group members.
                         </p>
 
                         <p>
                             At present, we have agreed to meet once a week to hold status
-                            meetings and plan upcoming tasks. However, this will most likely
+                            meetings and plan upcoming tasks. However, this will likely
                             change as we progress further into the project. We also keep in
                             touch on an ongoing basis via a group chat on Teams, where we can
                             ask questions and help each other.
@@ -56,15 +56,13 @@ export const Process = () => {
                     {/* Text */}
                     <div className="flex-1 space-y-4 text-gray-800 leading-relaxed">
                         <p>
-                            In addition to the groups work, I will focus on developing my
+                            In addition to the group-work, I will focus on developing my
                             own skills during this project. I have enrolled in
-                            Codeacademy where I am taking a course on React follewed by a course and
+                            Codeacademy, where I am taking a course on React followed by a course on
                             React Native. Both are important technologies for our front-end
-                            development and app development. In addition, I will also spend time
-                            completing educational videos about Tailwind and tutorials that
-                            demonstrate the implementation of different technologies.
+                            development and app development. 
                             I will make use of Kolbs experiential learning cycle.
-                            My concrete experience will come from completing Codecademy courses in React and React Native, as well as tutorials and videos on Tailwind CSS.
+                            My concrete experience will come from completing Codecademy courses in React and React Native.
                             After each learning activity, I will engage in reflective observation, considering what I found intuitive, what I struggled with, and how the content connects to the requirements of our semester project.
                             This reflection will then lead to abstract conceptualisation, where I aim to generalise key lessons, such as the benefits of component-based architecture in React.
                             Finally, I will move to active experimentation by applying these concepts directly within our project work and this portfolio-project.
