@@ -26,6 +26,15 @@ import UseWeather from '../assets/UseWeather.png';
 import Personaldetails from '../assets/Personaldetails.png';
 import AnsogningVideo from '../assets/AnsogningVideo.mp4';
 import FrontendRequest from '../assets/Frontendrequest.png';
+import Dashboardvideo from '../assets/Dashboardvideo.mp4';
+import dashboardfrontend from '../assets/dashboardfrontend.png';
+import AIservice from '../assets/AIservice.png';
+import Icedcoffeecomponent from '../assets/Icedcoffeecomponent.png';
+import Icedcoffee from '../assets/Icedcoffee.png';
+import Flatlist from '../assets/Flatlist.png';
+
+import RowStyling from '../assets/RowStyling.png';
+
 
 export const Notes = () => {
     return (
@@ -222,11 +231,53 @@ export const Notes = () => {
 
             <h3>Week 42</h3>
             <h4> Post request in my Ansogning component</h4>
-            <p>The user fills out name, address, email etc and uploads resume, Cv. When the user clicks "send ansøgning", React gathers it all in a formdata-object which it send with a post request to my backend</p>
+            <p>The user fills out name, address, email etc and uploads resume, Cv. When the user clicks send ansøgning, React gathers it all in a formdata-object which it send with a post request to my backend. The data is then stored in a database</p>
             <div className="image-container" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <img src={FrontendRequest} alt="FrontendRequest" className="notes-image" />
                 </div>
             </div>
+
+            <div>
+
+                <h3>Week 43</h3>
+                <h4> Dashboard</h4>
+                <p>The dashboard which showcases the top 10 applicants based on a match score. </p>
+                <video src={Dashboardvideo}
+                    controls
+                    className="notes-video"
+                    style={{ width: "500px", borderRadius: "12px", objectFit: "contain" }} />
+            </div>
+
+            <div>
+
+                <h3>Week 44</h3>
+                <h4> The dashboard component which calls API endpoint</h4>
+                <p>This section of code in our frontend dashboard component, calls an async function and fetches the top 10 candidate applicatoin from my backend API.
+                The AIservice image showcases thes CalculateMatchScoreAsync which reads the files which the applicants send in as text files. A promp is then used through OpenAI to give a matchscore based on their information
+                </p>
+                <div className="image-container" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                    <img src={dashboardfrontend} alt="FrontendRequest" className="notes-image" />
+                    <img src ={AIservice} alt="Aiservice" className="notes-image" />
+                </div>
+
+                <h3>Week 45</h3>
+                <h4> React Native </h4>
+                <p>This section of code creates a small React Native screen that showcases iced-coffee. png. It imports react Native components and the image file. It places centered text on top the image  </p>
+                <div className="image-container" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                    <img src={Icedcoffeecomponent} alt="Icedcoffeecomponent" className="notes-image" />
+                    <img src={Icedcoffee} alt="Icedcoffee" className="notes-image" />
+                </div>
+
+                <h3>Week 46</h3>
+                <h4> React Native  - list views </h4>
+                <p>This section of code creates a menuscreen which displays a list of coffee items using a Flatlist. It gets its data from Menu Items. I also use styling to place the items as rows and with rounded edges and space in between the rows</p>
+                <div className="image-container" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                    <img src={Flatlist} alt="Flatlist" className="notes-image" />
+                    <img src={RowStyling} alt="RowStyling" className="notes-image" /> 
+                   
+                </div>
+            </div>
+
       </section>
 
        

@@ -120,8 +120,8 @@ const weeks = [
     },
     {
         title: "Week 47",
-        goals: "test our program, continue react native and send internship applications",
-        "the week that passed": "I spent most of the week testing our program and fixing bugs. The AIservice is now giving a matchscore more accurately based on the resumes and CVs.  I also continued my React Native course and learned about handling user input. I sent out more internship applications,",
+        goals: "Test our product and develop a mobile application prototype with React Native",
+        "the week that passed": "I spent most of the week testing our program and fixing bugs. The AIservice is now giving a matchscore more accurately based on the resumes and CVs.  I also continued my React Native course and learned about handling user input and CRUD. I have began a project on react native which showcases a mobile application of our job application component. I also had a meeting with a firm who approved my internship. So I finally found a place to be an intern at",
 
 
 
