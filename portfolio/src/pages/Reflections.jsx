@@ -121,12 +121,29 @@ const weeks = [
     {
         title: "Week 47",
         goals: "Test our product and develop a mobile application prototype with React Native",
-        "the week that passed": "I spent most of the week testing our program and fixing bugs. The AIservice is now giving a matchscore more accurately based on the resumes and CVs.  I also continued my React Native course and learned about handling user input and CRUD. I have began a project on react native which showcases a mobile application of our job application component. I also had a meeting with a firm who approved my internship. So I finally found a place to be an intern at",
+        "the week that passed": "I spent most of the week testing our program and fixing bugs. The AIservice is now giving a matchscore more accurately based on the resumes and CVs.  I also continued my React Native course and learned about handling user input and CRUD. I have began a project on react native which showcases a mobile application of our job application component. I also had a meeting with a firm who approved my internship.",
+        resources: "Visual studio, Github, FreeCodeCamp, Youtube, OpenAI",
+        learning: "Testing our product is teaching me the importance of quality assurance and how to identify and fix bugs effectively. The React Native course on mobile app development is helping me apply the concepts to a prototype of our job application app. As of now it only features a frontend part for the applicant component"
 
 
+    },
+    {
+        title: "Week 47",
+        goals: "Test our product and develop a mobile application prototype with React Native",
+        "the week that passed": "I spent most of the week testing our program and fixing bugs. The AIservice is now giving a matchscore more accurately based on the resumes and CVs.  I also continued my React Native course and learned about handling user input and CRUD. I have began a project on react native which showcases a mobile application of our job application component. I also had a meeting with a firm who approved my internship.",
+        resources: "Visual studio, Github, FreeCodeCamp, Youtube, OpenAI",
+        learning: "Testing our product is teaching me the importance of quality assurance and how to identify and fix bugs effectively. The React Native course on mobile app development is helping me apply the concepts to a prototype of our job application app. As of now it only features a frontend part for the applicant component"
+
+
+    },
+    {
+        title: "Week 48",
+        goals: "Finish React Native Course, Integrate backend with mobile app, Update portfolio and make the video for the exam",
+        "the week that passed": "I have tried to connect the mobile app to the backend part of our product but it still doesnt load correctly. We met in our group to discuss the video that we have to turn in for the exam. I have spent much of the week finalizing my portfolio as well. The React Native course has been really benificial in learning mobile app development ",
+        resources: "Visual studio, Github, FreeCodeCamp, Youtube",
+        learning: "The React Native course has helped me understand the differences and similarities between web development and mobile app development. It has been interesting to see how the concepts translate between the two platforms. I believe this semester has taught me a lot of valuable lessons about both React and React Native. I have also managed to develop a full-stack project with a frontend, backend, and database. This has been incredibly valuable, as it has strengthened my ability to design, implement, and connect all layers of an application. Overall, I feel much more confident in my skills as a developer and better prepared for future projects and professional challenges."
 
     }
-
 ];
 
 export const Reflections = () => {

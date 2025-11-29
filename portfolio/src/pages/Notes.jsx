@@ -32,7 +32,7 @@ import AIservice from '../assets/AIservice.png';
 import Icedcoffeecomponent from '../assets/Icedcoffeecomponent.png';
 import Icedcoffee from '../assets/Icedcoffee.png';
 import Flatlist from '../assets/Flatlist.png';
-
+import MobileApp from '../assets/MobileApp.mp4';
 import RowStyling from '../assets/RowStyling.png';
 
 
@@ -276,6 +276,26 @@ export const Notes = () => {
                     <img src={RowStyling} alt="RowStyling" className="notes-image" /> 
                    
                 </div>
+                <div>
+                <h3>Week 47</h3>
+                <h4> Prototype of Job applicant component in React native </h4>
+                <p>I developed a prototype of our job applicant component in React Native. I can load on mobile devices and on the web. As of now it is not connected to the backend API of our project.</p>
+                <div className="image-container" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                        <video src={MobileApp}
+                            controls
+                            className="notes-video"
+                            style={{ width: "500px", borderRadius: "12px", objectFit: "contain" }} />
+                    </div>
+
+                    <div>
+                        <h3>Week 48</h3>
+                    <h4>The mobile app allows the user to write input and upload files but I receive an error when trying to connect to the backend. So the files are not sent to the backend. </h4>
+
+
+
+                    </div>
+                </div>
+
             </div>
 
       </section>
