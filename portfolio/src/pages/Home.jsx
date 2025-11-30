@@ -15,9 +15,9 @@ export const Home = () => {
                         />
                     </div>
                     <div className="text-content">
-                        <h2>Hi,</h2>
+                        <h3>Hi,</h3>
                         <p className="intro-text">
-                            My name is Sami. I am a computer-science student who is currently enrolled at the University
+                            My name is Sami. I am a computer-science student at the University
                             College Lillebaelt in Denmark. My main interests are web development,
                             frontend development and databases. I have a background in professional
                             basketball which has taught me the value of discipline, strategy and

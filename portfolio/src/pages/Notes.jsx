@@ -215,7 +215,7 @@ export const Notes = () => {
 
             <h3>Week 41</h3>
             <h4>Jobapplication component </h4>
-            <p>I developed our frontend design for our ansogning/Jobapplication component. The user will be able to fill out the form and upload resume, portfolio and recommendation. All this is showcased in one component. I used useState in my component to store the data that user inputs</p>
+            <p>I developed our frontend design for our ansogning/Jobapplication page. The user will be able to fill out the form and upload resume, portfolio and recommendation. All this is showcased in one page. I used useState in my page to store the data that user inputs</p>
             <div className="image-container" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                 <img src={Personaldetails} alt="UseWeather" className="notes-image" />
                 
@@ -252,7 +252,7 @@ export const Notes = () => {
 
                 <h3>Week 44</h3>
                 <h4> The dashboard component which calls API endpoint</h4>
-                <p>This section of code in our frontend dashboard component, calls an async function and fetches the top 10 candidate applicatoin from my backend API.
+                <p>This section of code in our frontend dashboard page, calls an async function and fetches the top 10 candidate applicatoin from my backend API.
                 The AIservice image showcases thes CalculateMatchScoreAsync which reads the files which the applicants send in as text files. A promp is then used through OpenAI to give a matchscore based on their information
                 </p>
                 <div className="image-container" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -287,13 +287,7 @@ export const Notes = () => {
                             style={{ width: "500px", borderRadius: "12px", objectFit: "contain" }} />
                     </div>
 
-                    <div>
-                        <h3>Week 48</h3>
-                    <h4>The mobile app allows the user to write input and upload files but I receive an error when trying to connect to the backend. So the files are not sent to the backend. </h4>
 
-
-
-                    </div>
                 </div>
 
             </div>

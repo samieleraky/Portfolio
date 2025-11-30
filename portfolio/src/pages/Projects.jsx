@@ -81,7 +81,44 @@ export const Projects = () => {
 
                     <div className="project-links">
                         <a
+                            href="https://github.com/samieleraky/Produktgruppe5.git"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-primary"
+                        >
+                            View Source Code
+                        </a>
+                        <a
                             href="#"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-success"
+                        >
+                            Demo (coming soon)
+                        </a>
+                    </div>
+                </li>
+
+                ¨{/* Project 4 */ }
+                <li className="project-item">
+                    <h3>Jobportal - Mobile app</h3>
+                    <p>
+                        The mobile app version of our smart recruitment platform designed for .dotLegal to automate the job
+                        application process. This app showcases the front-end part of our job applicant component, built with React Native.
+                    </p>
+
+                    <h4>Key Features</h4>
+                    <ul className="list-disc list-inside ml-4">
+                        <li>User can enter their personal details and job related information</li>
+                        <li>Upload CV and cover letter documents</li>
+                        <li>Submit job applications directly from the app</li>
+                        <li>API integration with the .NET backend to store applicant data</li>
+                        
+                    </ul>
+
+                    <div className="project-links">
+                        <a
+                            href="https://github.com/samieleraky/JobportalApp.git"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary"
